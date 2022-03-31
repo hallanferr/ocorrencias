@@ -1,0 +1,9 @@
+*.pyc
+*.log
+*.pot
+__pycache__
+.env
+venvw/
+*.py[cod] 
+*$py.class
+db.sqlite3

@@ -1,0 +1,9 @@
+body{
+    background-color: #ffffff;
+}
+#content form{
+    margin-top: calc(50vh - 241px);
+}
+#content-form button{
+    width: 100%;
+}

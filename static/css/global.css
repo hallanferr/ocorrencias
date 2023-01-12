@@ -1,0 +1,47 @@
+/* Navbar */
+
+
+
+.navbar{
+    margin-bottom: 15px;
+}
+
+.navbar-custom{
+    background-color: hsl(1,82%,46%);
+}
+
+.navbar-toggler{
+    border-color: #fff;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.3em;
+    color:rgb(255, 255, 255);
+}
+.fas{
+    color:#fff;
+    font-size:25px;
+}
+.container-fluid{
+    padding: 0;
+}
+
+.footer{
+    background-color: rgb(224, 216, 189);
+    height: 130px;
+    /*border-top: 1px solid #000000;*/
+    margin-top: 80px;
+} 
+  
+  /*mouse passa sobre o menu e abre/oculta*/
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.customdrop:hover{
+    background-color: #67cfff;
+}
+
+.responsive_banner{
+    display: inline;
+    width: 100%;
+}

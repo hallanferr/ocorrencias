@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block title %}Cadastrar Ocorrência{% endblock %}
+
+{% block content %}
+
+<h3 style="text-align: center;"> Cadastro de ocorrência</h3>
+
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-9 col-xl-7">
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-4 p-md-5">
+            <form method="POST">
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    {{ form.data|as_crispy_field }}
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    {{ form.hora_chamada|as_crispy_field }}
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    {{ form.hora_no_local|as_crispy_field }}
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    {{ form.hora_termino|as_crispy_field }}
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-center">
+                  <div class="form-outline datepicker w-100">
+                    {{ form.situacao|as_crispy_field }}
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    {{ form.meio_utilizado|as_crispy_field }}
+                  </div>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="col-md-6 mb-4 d-flex align-items-center">
+                  <div class="form-outline">
+                    {{form2.caracteristica_local|as_crispy_field }}
+                  </div>
+                </div>
+              </div>
+              
+             
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% endblock %}

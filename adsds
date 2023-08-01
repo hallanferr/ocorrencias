@@ -1,0 +1,29 @@
+[33mcommit e998e770cceaa2b865d7c067bc44a1620e66aae4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: hallan <hallanferr@gmail.com>
+Date:   Thu Jan 12 11:29:32 2023 -0300
+
+    ultimas mudancas
+
+[33mcommit 58d7d76d1d4f5ab6af673632a4305aa46144f169[m
+Author: hallan <hallanferr@gmail.com>
+Date:   Fri Apr 1 10:30:09 2022 -0300
+
+    teste U
+
+[33mcommit 06aefa1d6a7b7e84bccef7dc7f3a86184758724c[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: hallan <hallanferr@gmail.com>
+Date:   Thu Mar 31 18:33:44 2022 -0300
+
+    removendo models.py 2
+
+[33mcommit 3dd4694348919dbd3d173e5d7440f9c94f31c98e[m
+Author: hallan <hallanferr@gmail.com>
+Date:   Thu Mar 31 18:29:32 2022 -0300
+
+    removendo models.py
+
+[33mcommit 987b81e29ca2c7626d37bd6fa6c8eb96338bcb48[m
+Author: hallan <hallanferr@gmail.com>
+Date:   Thu Mar 31 17:44:42 2022 -0300
+
+    primeira configuração do projeto com requeriments, decouple e gitignore
